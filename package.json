@@ -1,5 +1,8 @@
 {
   "private": true,
+  "dependencies": {
+    "monaco-editor": "^0.20.0"
+  },
   "devDependencies": {
     "css-loader": "^3.6.0",
     "eslint": "^7.3.1",
