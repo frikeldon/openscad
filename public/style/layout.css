@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#player {
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-areas: "codeEditor";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 35%;
+  grid-template-areas: "codeEditor modelViewer" "logger logger";
+}
+
+#codeEditor {
+  grid-area: codeEditor;
+}
+
+#modelViewer {
+  grid-area: modelViewer;
+}
+
+#logger {
+  grid-area: logger;
+  overflow-y: scroll;
+}
