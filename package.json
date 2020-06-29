@@ -1,7 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "monaco-editor": "^0.20.0"
+    "monaco-editor": "^0.20.0",
+    "three": "^0.118.3"
   },
   "devDependencies": {
     "css-loader": "^3.6.0",

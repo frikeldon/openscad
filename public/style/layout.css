@@ -14,7 +14,7 @@ body {
   grid-template-areas: "codeEditor";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 35%;
-  grid-template-areas: "codeEditor modelViewer" "logger logger";
+  grid-template-areas: "codeEditor modelViewer" "logger modelViewer";
 }
 
 #codeEditor {
