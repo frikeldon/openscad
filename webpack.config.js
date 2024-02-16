@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    publicPath: 'script'
+    publicPath: '/script'
   },
   module: {
     rules: [{
@@ -19,6 +19,8 @@ module.exports = {
     }]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public')
+    static: {
+      directory: path.join(__dirname, 'public')
+    }
   }
 }
